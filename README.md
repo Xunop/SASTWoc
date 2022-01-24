@@ -25,8 +25,8 @@
 │  │  │              ├─controller         controller层
 │  │  │              ├─entity             存放基础的实体类
 │  │  │              ├─mapper             mapper层（也叫dao层）
-│  │  │              └─service            service层
-│  │  └─resources                         用于存放资源文件、配置文件等
+│  │  │              └─service            service层 用于存放资源文件、配置文件等
+│  │  └─resources    └─util               util层
 │  │      ├─mapper                        存放mapper映射文件
 │  │      ├─static
 │  │      └─templates
