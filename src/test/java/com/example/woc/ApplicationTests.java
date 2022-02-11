@@ -6,9 +6,9 @@ import com.example.woc.entity.Account;
 import com.example.woc.mapper.UserMapper;
 import com.example.woc.service.AdminService;
 import com.example.woc.service.UserService;
-import org.junit.Before;
+
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
