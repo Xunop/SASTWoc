@@ -14,8 +14,9 @@ public class AdminService {
     AdminMapper adminMapper;
 
     //查询用户数
-    int nums = 0;
+    
     public int queryUserList() {
+        int nums = 0;
         List<Account> accounts = adminMapper.queryUserList();
         for (Account account : accounts) {
             nums = nums + 1;
